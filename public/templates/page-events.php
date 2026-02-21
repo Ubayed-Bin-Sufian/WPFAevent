@@ -193,7 +193,7 @@ $header_vars = array(
 						$total_past     = $past_query->found_posts;
 						$total_events   = $total_upcoming + $total_past;
 						?>
-						<?php esc_html_e( 'Showing', 'wpfaevent' ); ?> <span id="resultsCount"><?php echo esc_html( $total_upcoming ); ?></span> <?php esc_html_e( 'upcoming events', 'wpfaevent' ); ?>
+						<?php esc_html_e( 'Showing', 'wpfaevent' ); ?> <span id="resultsCount"><?php echo esc_html( $total_events ); ?></span> <?php esc_html_e( 'events', 'wpfaevent' ); ?>
 					</div>
 
 					<!-- Events Container for UPCOMING events -->
